@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Holland Paint</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo" />
+      <span>Holland Paint</span>
+    </div>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#index">Home</a>
+      <a href="#about">About</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#our-work">Our Work</a>
+      <a href="#contact" class="contact-us">Contact Us</a>
+    </nav>
+
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </header>
+
+  <!-------------------------------------------------->
+
+  <section class="hero-bg">
+  <div class="overlay">
+    <div class="hero-content">
+      <h1>Transforming Spaces, One Stroke at a Time</h1>
+      <p>From cozy homes to commercial landmarks, Holland Paint delivers vibrant color, lasting protection, and expert craftsmanship to every surface.</p>
+      <a href="#our-work" class="hero-btn">View Our Work</a>
+    </div>
+  </div>
+</section>
+
+<!----------------------------------------------------->
+
+<section class="about-us" id="about">
+  <div class="about-container">
+    <div class="about-text" data-aos="fade-up">
+      <h2>About Us</h2>
+      <p>
+        We're a small team with a big love for color. At Holland Paint, we make spaces look fresh, bright, and full of life. From homes to shops, we add the perfect finish — neat, simple, and done right.
+      </p>
+    </div>
+
+    <div class="about-highlights">
+      <div class="highlight" data-aos="fade-up" data-aos-delay="100">
+        <img src="experience-icon.png" alt="Experience" />
+        <h4>Skilled Hands</h4>
+        <p>We know the brush like the back of our hand.</p>
+      </div>
+      <div class="highlight" data-aos="fade-up" data-aos-delay="200">
+        <img src="certified-icon.png" alt="Certified Team" />
+        <h4>Friendly Team</h4>
+        <p>We work with smiles and keep things simple.</p>
+      </div>
+      <div class="highlight" data-aos="fade-up" data-aos-delay="300">
+        <img src="quality-icon.png" alt="Premium Paints" />
+        <h4>Good Paint</h4>
+        <p>Only clean, quality paint that lasts long.</p>
+      </div>
+      <div class="highlight" data-aos="fade-up" data-aos-delay="400">
+        <img src="delivery-icon.png" alt="Timely Delivery" />
+        <h4>We Show Up</h4>
+        <p>No stories. We come, we paint, we finish.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------------------------------------------------------------->
+
+<section class="testimonials" id="testimonials">
+  <h2 class="section-title">What Our Clients Say</h2>
+  <p class="section-subtext">A few words from the people we've worked with.</p>
+
+  <div class="testimonial-wrap">
+    <div class="testimonial-card type-a" data-aos="fade-up">
+      <p>“Holland Paint brought my dream colors to life. The walls look amazing and feel brand new.”</p>
+      <div class="author">
+        <img src="https://i.pravatar.cc/100?img=11" alt="Client" />
+        <div>
+          <h4>Jane O.</h4>
+          <span>Lagos</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card type-b" data-aos="fade-up" data-aos-delay="100">
+      <p>“Very calm, clean, and respectful workers. I love the finish on my kitchen.”</p>
+      <div class="author">
+        <img src="https://i.pravatar.cc/100?img=14" alt="Client" />
+        <div>
+          <h4>Musa T.</h4>
+          <span>Abuja</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card type-c" data-aos="fade-up" data-aos-delay="200">
+      <p>“It was fast and well done. No splashes, no errors. I recommend Holland Paint to anyone.”</p>
+      <div class="author">
+        <img src="https://i.pravatar.cc/100?img=12" alt="Client" />
+        <div>
+          <h4>Mr. Adewale</h4>
+          <span>Ibadan</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card type-a" data-aos="fade-up" data-aos-delay="300">
+      <p>“They worked with my budget and still delivered fine work. I’ll definitely call again.”</p>
+      <div class="author">
+        <img src="https://i.pravatar.cc/100?img=13" alt="Client" />
+        <div>
+          <h4>Chiamaka E.</h4>
+          <span>Enugu</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---------------------------------------------------->
+
+<section class="our-work" id="our-work">
+  <h2 class="section-title">Our Work</h2>
+  <p class="section-subtext">See some of our recent painting projects.</p>
+
+  <div class="work-slider-wrapper">
+    <button class="scroll-btn left" onclick="scrollGallery(-1)">&#10094;</button>
+
+    <div class="work-slider" id="workSlider">
+      <div class="work-card">
+        <img src="image/photo.jpg" alt="Living Room">
+        <div class="work-desc">
+          <h4>Living Room – Ikeja</h4>
+          <p>Warm tones with smooth finish.</p>
+        </div>
+      </div>
+      <div class="work-card">
+        <img src="image/space.jpg" alt="Storefront">
+        <div class="work-desc">
+          <h4>Storefront – Ibadan</h4>
+          <p>Clean and bright exterior painting.</p>
+        </div>
+      </div>
+      <div class="work-card">
+        <img src="image/Mobile store.jpg" alt="Office">
+        <div class="work-desc">
+          <h4>Office – VI</h4>
+          <p>Fresh white walls with blue accents.</p>
+        </div>
+      </div>
+      <div class="work-card">
+        <img src="image/wall.jpg" alt="Kitchen">
+        <div class="work-desc">
+          <h4>Kitchen – Enugu</h4>
+          <p>Neutral base with easy-to-clean finish.</p>
+        </div>
+      </div>
+      <div class="work-card">
+        <img src="image/Domain parked by Instra.jpg" alt="Hallway">
+        <div class="work-desc">
+          <h4>Hallway – Lekki</h4>
+          <p>Light grey with smooth transitions.</p>
+        </div>
+      </div>
+      <div class="work-card">
+        <img src="image/space.jpg" alt="Dining">
+        <div class="work-desc">
+          <h4>Dining – Surulere</h4>
+          <p>Cozy mood with warm palette.</p>
+        </div>
+      </div>
+      <!-- Add more cards as needed -->
+    </div>
+
+    <button class="scroll-btn right" onclick="scrollGallery(1)">&#10095;</button>
+  </div>
+</section>
+
+<!------------------------------------------------------------>
+<section class="contact" id="contact">
+  <h2 class="section-title">Contact Us</h2>
+  <p class="section-subtext">Let’s talk about your next painting project.</p>
+
+  <div class="contact-wrapper">
+    <!-- Contact Form -->
+    <form class="contact-form" action="https://getform.io/f/your-endpoint" method="POST">
+      <div class="form-group">
+        <input type="text" name="name" required />
+        <label>Full Name</label>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" required />
+        <label>Email Address</label>
+      </div>
+      <div class="form-group">
+        <input type="text" name="subject" />
+        <label>Subject</label>
+      </div>
+      <div class="form-group">
+        <textarea name="message" rows="5" required></textarea>
+        <label>Your Message</label>
+      </div>
+      <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <div class="info-item">
+        <i class="fas fa-phone-alt"></i>
+        <div>
+          <h4>Phone</h4>
+          <p>+234 812 345 6789</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h4>Email</h4>
+          <p>hello@hollandpaint.com</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <h4>Location</h4>
+          <p>Lagos, Nigeria</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------------------------------------------------------------->
+
+<footer class="footer">
+  <div class="footer-content">
+    <h3>Holland Paint</h3>
+    <p>Bringing life to your walls with quality colors.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Holland Paint. All rights reserved.</p>
+  </div>
+</footer>
+<!----------------------------------------------------->
+  <script src="../UN2/main.js"></script>
+</body>
+</html>
